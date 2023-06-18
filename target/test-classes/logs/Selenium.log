@@ -1,0 +1,9 @@
+2023-06-16 16:52:08,155 -0500 [main] DEBUG (TestBase.java:41) - Getting config properties in the file
+2023-06-16 16:52:08,157 -0500 [main] DEBUG (TestBase.java:50) - Starting browser configuration
+2023-06-16 16:52:14,357 -0500 [main] DEBUG (TestBase.java:55) - Opening url
+2023-06-16 16:58:00,527 -0500 [main] DEBUG (TestBase.java:41) - Getting config properties in the file
+2023-06-16 16:58:00,529 -0500 [main] DEBUG (TestBase.java:50) - Starting browser configuration
+2023-06-16 16:58:05,777 -0500 [main] DEBUG (TestBase.java:55) - Opening url
+2023-06-16 17:03:14,578 -0500 [main] DEBUG (TestBase.java:41) - Getting config properties in the file
+2023-06-16 17:03:14,580 -0500 [main] DEBUG (TestBase.java:50) - Starting browser configuration
+2023-06-16 17:03:20,014 -0500 [main] DEBUG (TestBase.java:55) - Opening url
