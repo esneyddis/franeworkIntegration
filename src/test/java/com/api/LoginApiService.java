@@ -12,7 +12,7 @@ public class LoginApiService extends BaseService {
 
     public Response logIn(String userName, String pass) {
        User user = new User();
-       user.setName(userName);
+       user.setUsername(userName);
        user.setPassword(pass);
       return   requestSpecification().body(user)
                .post()
