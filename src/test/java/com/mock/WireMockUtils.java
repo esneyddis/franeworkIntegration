@@ -28,7 +28,7 @@ public final class WireMockUtils {
                 .willReturn(aResponse()
                         .withHeader("Content-Type", "application/json")
                         .withStatus(200)
-                        .withBody("{\"token\": \"QpwL5tke4Pnpja7X67\"}"));
+                        .withBody("{\"token\": \"QpwL5tke4Pnpja7X67344\"}"));
         createStub(mock);
         return mock;
 

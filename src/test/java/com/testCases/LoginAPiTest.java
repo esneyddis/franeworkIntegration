@@ -29,12 +29,12 @@ public class LoginAPiTest extends AbstractTest {
                 services.getLoginService(serverUrl).logIn("eve.holt@reqres.in", "cityslicka");
         WireMock.removeStub(mappingBuilder);
         String token = response.jsonPath().get("token");
-        System.out.println("token = " + token);
-        Assert.assertEquals(response.jsonPath().get("token"), "QpwL5tke4Pnpja7X67");
+        System.out.println("response = " + token);
+        Assert.assertEquals(response.jsonPath().get("token"), "QpwL5tke4Pnpja7X67344");
     }
 
     private String buildServerUrl() {
-        return String.format("https://localhost:%d", this.wireMockServer.httpsPort());
+        return String.format("http://localhost:%d", this.wireMockServer.port());
     }
 
 }

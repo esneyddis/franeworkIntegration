@@ -17,7 +17,7 @@ public class AbstractTest {
     public void startServer() {
        this.wireMockServer = new WireMockServer(options().dynamicPort().dynamicHttpsPort());
        this.wireMockServer.start();
-       configureFor("localhost", this.wireMockServer.httpsPort());
+       configureFor("localhost", this.wireMockServer.port());
     }
 
 

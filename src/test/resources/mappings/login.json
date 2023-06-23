@@ -1,11 +1,11 @@
 {
   "request": {
     "method": "POST",
-    "url": "/api/login.+"
+    "url": "/api/login"
   },
   "response": {
     "status": 200,
-    "body": "{\"token\": \"QpwL5tke4Pnpja7X67\"}",
+    "body": "{\"token\": \"QpwL5tke4Pnpja7X67344\"}",
     "headers": {
       "Content-Type": "application/json"
     }
