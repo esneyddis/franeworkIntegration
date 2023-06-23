@@ -6,8 +6,15 @@ import io.restassured.response.Response;
 
 public class LoginApiService extends BaseService {
 
+    String url;
+
     public LoginApiService() {
-        super("https://api.demoblaze.com/", "login");
+        super("https://reqres.in/");
+    }
+
+    public LoginApiService(String url) {
+        super(url);
+        this.url = url;
     }
 
     public Response logIn(String userName, String pass) {
@@ -15,7 +22,7 @@ public class LoginApiService extends BaseService {
        user.setUsername(userName);
        user.setPassword(pass);
       return   requestSpecification().body(user)
-               .post()
+               .post("/api/login")
                .andReturn();
     }
 }

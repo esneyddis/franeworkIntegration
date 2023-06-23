@@ -1,42 +1,34 @@
 package com.mock;
 
-import com.dto.User;
-import com.github.tomakehurst.wiremock.WireMockServer;
 import com.github.tomakehurst.wiremock.client.MappingBuilder;
 import com.github.tomakehurst.wiremock.client.WireMock;
 import com.github.tomakehurst.wiremock.stubbing.StubMapping;
-
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 
 
-public class WireMockUtils {
+public final class WireMockUtils {
 
 
-    public WireMockUtils(){
+    private WireMockUtils() {
+        //prevent instantiation
     }
 
-    public static StubMapping createStub(MappingBuilder mappingBuilder){
-        WireMockServer server = new WireMockServer();
-        server.start();
-        return  stubFor(mappingBuilder);
+    public static StubMapping createStub(MappingBuilder mappingBuilder) {
+        return WireMock.stubFor(mappingBuilder);
     }
 
-    public static void deleteStub(MappingBuilder mappingBuilder) {
-        removeStub(mappingBuilder);
+    public static void removeStub(MappingBuilder mappingBuilder){
+        System.out.println("deleting");
+        WireMock.removeStub(mappingBuilder);
     }
 
-  /*  private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper()
-            .registerModule(new Jdk8Module())
-            .registerModule(new JavaTimeModule())
-            .configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false); */
-
-    public static MappingBuilder createUser(User user){
-        MappingBuilder mock = post(urlEqualTo("https://api.demoblaze.com/login"))
+    public static MappingBuilder createUser() {
+        MappingBuilder mock = post(urlMatching("/api/login"))
                 .atPriority(1)
-             //   .withRequestBody(equalToJson(String.valueOf(user)))
                 .willReturn(aResponse()
+                        .withHeader("Content-Type", "application/json")
                         .withStatus(200)
-                        .withBody("{\"id\":\"15\"}"));
+                        .withBody("{\"token\": \"QpwL5tke4Pnpja7X67\"}"));
         createStub(mock);
         return mock;
 

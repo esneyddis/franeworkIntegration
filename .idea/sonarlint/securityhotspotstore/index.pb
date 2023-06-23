@@ -7,15 +7,13 @@ w
 G.idea/sonarlint/issuestore/2/8/286d2178c35398d23702b53895e7ecdca6122b6a,1/d/1d560dd21c190acf38f24608615dd82fe6addc44
 
 Q.idea/sonarlint/securityhotspotstore/2/8/286d2178c35398d23702b53895e7ecdca6122b6a,1/7/17d936725d8302627693887f736bfb4c9e4ec7fb
-Z
-*src/test/java/com/testCases/LoginTest.java,4/7/47c0856d5da055d2afdad31b72c7d4561881d79a
-W
-'src/test/java/com/api/AbstractTest.java,c/3/c30bf33e83e20e48a89477f5de8c298565348733
 T
 $src/test/java/com/base/BasePage.java,3/9/39c58d9a30b40a48dc67ea053b92d26d99313b9a
-W
-'src/test/java/com/base/BaseService.java,e/9/e93205ff346640a5456536f6119e559aa6f001fa
 U
 %src/test/java/com/page/LoginPage.java,5/5/5575ef902b1c4efae774e74015d2bc5f7a59fef6
 T
 $src/test/java/com/base/BaseTest.java,1/7/17aec45706bb5bd1a7c9d26a9e982e35f2df2438
+O
+src/test/java/com/dto/User.java,1/1/11fc34ab7a4ca8af85e163c6aaa0d033e3c1649f
+Z
+*src/test/java/com/testCases/LoginTest.java,4/7/47c0856d5da055d2afdad31b72c7d4561881d79a

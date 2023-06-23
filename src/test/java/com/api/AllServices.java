@@ -11,4 +11,11 @@ public class AllServices {
         }
         return loginApiService;
     }
+
+    public LoginApiService getLoginService(String serverUrl){
+        if (loginApiService == null) {
+            loginApiService = new LoginApiService(serverUrl);
+        }
+        return loginApiService;
+    }
 }

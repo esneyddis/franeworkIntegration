@@ -15,12 +15,10 @@ public class BaseService {
 
     RequestSpecification requestSpecification;
 
-    public BaseService(String url, String resource) {
+    public BaseService(String url) {
         this.baseUrl = url;
-        this.resource = resource;
         this.requestSpecification = RestAssured.given()
                 .baseUri(url)
-                .basePath(resource)
                 .contentType(ContentType.JSON);
     }
 
