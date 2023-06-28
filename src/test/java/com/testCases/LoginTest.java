@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {
 
-
     @DataProvider
     public Object[][] dataSetting(){
         return new Object[][] {

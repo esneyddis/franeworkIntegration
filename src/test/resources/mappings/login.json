@@ -8,6 +8,7 @@
     "body": "{\"token\": \"QpwL5tke4Pnpja7X67344\"}",
     "headers": {
       "Content-Type": "application/json"
-    }
+    },
+    "fixedDelayMilliseconds": 2000
   }
 }

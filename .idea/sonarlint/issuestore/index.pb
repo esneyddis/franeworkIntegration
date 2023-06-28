@@ -7,13 +7,9 @@ G.idea/sonarlint/issuestore/2/8/286d2178c35398d23702b53895e7ecdca6122b6a,1/d/1d
 Q.idea/sonarlint/securityhotspotstore/2/8/286d2178c35398d23702b53895e7ecdca6122b6a,1/7/17d936725d8302627693887f736bfb4c9e4ec7fb
 [
 +src/test/java/com/rough/TestProperties.java,3/9/398d32a30ea7bd77a6380f281638890008eef330
-U
-%src/test/java/com/page/LoginPage.java,5/5/5575ef902b1c4efae774e74015d2bc5f7a59fef6
-T
-$src/test/java/com/base/BaseTest.java,1/7/17aec45706bb5bd1a7c9d26a9e982e35f2df2438
-T
-$src/test/java/com/base/BasePage.java,3/9/39c58d9a30b40a48dc67ea053b92d26d99313b9a
 O
 src/test/java/com/dto/User.java,1/1/11fc34ab7a4ca8af85e163c6aaa0d033e3c1649f
-Z
-*src/test/java/com/testCases/LoginTest.java,4/7/47c0856d5da055d2afdad31b72c7d4561881d79a
+W
+'src/test/java/com/dto/UserResponse.java,4/d/4d5904a33ac6be4184f55c2aa01730f0eb671de0
+T
+$src/test/java/com/base/BasePage.java,3/9/39c58d9a30b40a48dc67ea053b92d26d99313b9a

@@ -1,0 +1,28 @@
+<Configuration status="INFO" packages="com.listeners">
+    <Properties>
+        <Property name="DATE_TIME">%d{yyyy-MM-dd HH:mm:ss}</Property>
+        <Property name="DATE_TIME_COLOR">%style{${DATE_TIME}}{yellow}</Property>
+        <Property name="LEVEL_COLOR">%highlight{%-5level}{FATAL=bg_red, ERROR=red, WARN=yellow, INFO=green}</Property>
+        <Property name="FANCY_PATTERN">${DATE_TIME_COLOR} ${LEVEL_COLOR} [tid:%t] %style{%c{1}}{blue}:%L - %m%n</Property>
+
+        <Property name="DEFAULT_PATTERN">%d{yyyy-MM-dd HH:mm:ss} [tid:%t] %-5p %c{1}:%L - %m%n</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${FANCY_PATTERN}"/>
+        </Console>
+        <TestNgAppender name="TestNgAppender">
+            <PatternLayout pattern="${DEFAULT_PATTERN}"/>
+        </TestNgAppender>
+    </Appenders>
+
+    <!-- NOTICE: we have different configuration for running in Jenkins, log4j2-jenkins.xml is used for Jenkins runs -->
+    <Loggers>
+        <Logger name="org.apache.log4j.xml" level="info"/>
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="TestNgAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

@@ -1,7 +1,7 @@
 package com.base;
 
 import com.page.LoginPage;
-import org.apache.log4j.Logger;
+import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,7 +13,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
-
+@Slf4j
 public class BasePage {
 
     /**
@@ -31,7 +31,6 @@ public class BasePage {
     public WebDriverWait wait;
     public static Properties config = new Properties();
     public static FileInputStream file;
-    public static Logger log = Logger.getLogger("devapp");
 
     @FindBy(id = "login2")
     WebElement loginOption;

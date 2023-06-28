@@ -1,15 +1,17 @@
 package com.base;
 
 import com.api.AbstractTest;
+import com.listeners.TestListeners;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 
 import java.time.Duration;
 
-
+@Listeners({TestListeners.class})
 public class BaseTest extends AbstractTest {
 
     @BeforeClass

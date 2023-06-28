@@ -1,6 +1,7 @@
 package com.page;
 
 import com.base.BasePage;
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -26,18 +27,20 @@ public class LoginPage extends BasePage {
         super(driver);
     }
 
+    @Step("Entering name")
     public LoginPage enterName(String user) {
         sendKeys(userName, user);
         return this;
     }
 
-
+    @Step("Entering password")
     public LoginPage enterPassword (String pass) {
         sendKeys(password, pass);
         return this;
 
     }
 
+    @Step("Clicking Login Button")
     public LoginPage clickOnLoginButton() {
         click(clickOnLoginButton);
         return this;

@@ -1,24 +1,18 @@
 package com.api;
 
-import com.github.tomakehurst.wiremock.WireMockServer;
-import com.github.tomakehurst.wiremock.client.WireMock;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import lombok.extern.log4j.Log4j;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 
-import static com.github.tomakehurst.wiremock.client.WireMock.configureFor;
-import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.options;
-
+@Log4j
+//@Listeners({TestListeners.class})
 public class AbstractTest {
-    public WebDriver driver;
+    public static WebDriver driver;
+    public ExtentReports extentReports;
+    public ExtentTest extentTest;
     public AllServices services;
-    public WireMockServer wireMockServer;
-
-    @BeforeSuite
-    public void startServer() {
-       this.wireMockServer = new WireMockServer(options().dynamicPort().dynamicHttpsPort());
-       this.wireMockServer.start();
-       configureFor("localhost", this.wireMockServer.port());
-    }
 
 
     @BeforeClass
@@ -28,14 +22,5 @@ public class AbstractTest {
         }
 
     }
-
-    @AfterSuite
-    public void deleteServer() {
-        if (this.wireMockServer != null) {
-            System.out.println("entro aqui = ");
-            this.wireMockServer.stop();
-        }
-    }
-
 
 }

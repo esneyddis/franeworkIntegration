@@ -2,7 +2,8 @@ package com.api;
 
 import com.base.BaseService;
 import com.dto.User;
-import io.restassured.response.Response;
+import com.dto.UserResponse;
+import com.google.gson.GsonBuilder;
 
 public class LoginApiService extends BaseService {
 
@@ -17,12 +18,13 @@ public class LoginApiService extends BaseService {
         this.url = url;
     }
 
-    public Response logIn(String userName, String pass) {
+    public UserResponse logIn(String userName, String pass) {
        User user = new User();
        user.setUsername(userName);
        user.setPassword(pass);
-      return   requestSpecification().body(user)
+       String payload = new GsonBuilder().serializeNulls().create().toJson(user);
+      return   requestSpecification().body(payload)
                .post("/api/login")
-               .andReturn();
+               .as(UserResponse.class);
     }
 }

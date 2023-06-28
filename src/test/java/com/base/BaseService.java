@@ -2,6 +2,7 @@ package com.base;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class BaseService {
@@ -12,6 +13,8 @@ public class BaseService {
     String baseUrl;
 
     String resource;
+
+    Response response;
 
     RequestSpecification requestSpecification;
 
@@ -25,5 +28,13 @@ public class BaseService {
     public RequestSpecification requestSpecification()
     {
         return this.requestSpecification;
+    }
+
+    public Response getResponse() {
+        return response;
+    }
+
+    public Response post(String url) {
+       return requestSpecification.post(url);
     }
 }
