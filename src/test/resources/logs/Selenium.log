@@ -270,3 +270,12 @@
 2023-07-05 22:34:07,412 -0500 [main] INFO  (WireMockUtils.java:32) - Starting wiremock server
 2023-07-05 22:34:07,761 -0500 [main] INFO  (WireMockUtils.java:35) - Configuring wiremock server
 2023-07-05 22:34:08,273 -0500 [main] INFO  (LoginAPiTest.java:36) - Getting response using mock: QpwL5tke4Pnpja7X890
+2023-07-06 13:30:00,374 -0500 [main] INFO  (TestListeners.java:20) - Starting test logInUsingMock
+2023-07-06 13:30:00,482 -0500 [main] INFO  (WireMockUtils.java:30) - Starting wiremock server
+2023-07-06 13:30:00,861 -0500 [main] INFO  (WireMockUtils.java:33) - Configuring wiremock server
+2023-07-06 13:30:01,502 -0500 [main] INFO  (LoginAPiTest.java:36) - Getting response using mock: QpwL5tke4Pnpja7X890
+2023-07-06 13:30:01,509 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_UY", UTF-8, parsed); will try to load it.
+2023-07-06 13:30:01,510 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_UY.ftl"): Not found
+2023-07-06 13:30:01,510 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-07-06 13:30:01,511 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-07-06 13:30:01,511 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_UY", UTF-8, parsed) from "jar:file:/Users/edurand/Desktop/maven%20settings/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

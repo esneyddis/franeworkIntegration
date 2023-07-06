@@ -226,5 +226,13 @@
                 <version>3.8.1</version>
             </plugin>
         </plugins>
+        <testResources>
+            <testResource>
+                <directory>src/test/resources</directory>
+                <includes>
+                    <include>log4j.properties</include>
+                </includes>
+            </testResource>
+        </testResources>
     </build>
 </project>
