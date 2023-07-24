@@ -8,11 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.time.Duration;
-import java.util.Properties;
 @Slf4j
 public class BasePage {
 
@@ -29,8 +25,7 @@ public class BasePage {
      */
     protected WebDriver driver;
     public WebDriverWait wait;
-    public static Properties config = new Properties();
-    public static FileInputStream file;
+
 
     @FindBy(id = "login2")
     WebElement loginOption;
@@ -42,21 +37,11 @@ public class BasePage {
          PageFactory.initElements(driver, this);
     }
 
-    public static String getProperties(String propName){
-        try {
-            log.debug("Getting properties values");
-            config = new Properties();
-            file = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/properties/config.properties");
-            config.load(file);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        return config.getProperty(propName);
-    }
 
-    public BasePage openPage() {
+
+    public BasePage openPage(String url) {
         log.debug("Opening url");
-        driver.get(getProperties("urlName"));
+        driver.get(url);
         return this;
     }
 

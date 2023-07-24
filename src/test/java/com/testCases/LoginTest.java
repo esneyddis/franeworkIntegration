@@ -16,7 +16,7 @@ public class LoginTest extends BaseTest {
     @Test(dataProvider = "dataSetting")
     public void loginInvalidUser(String name, String  pass) {
         LoginPage page = new LoginPage(driver);
-        page.openPage()
+        page.openPage(getProperties("urlName"))
              .goToLogin()
               .enterName(name)
               .enterPassword(pass)

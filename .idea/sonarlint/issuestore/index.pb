@@ -11,11 +11,11 @@ O
 src/test/java/com/dto/User.java,1/1/11fc34ab7a4ca8af85e163c6aaa0d033e3c1649f
 W
 'src/test/java/com/dto/UserResponse.java,4/d/4d5904a33ac6be4184f55c2aa01730f0eb671de0
-T
-$src/test/java/com/base/BasePage.java,3/9/39c58d9a30b40a48dc67ea053b92d26d99313b9a
-Z
-*src/test/java/com/testCases/LoginTest.java,4/7/47c0856d5da055d2afdad31b72c7d4561881d79a
-T
-$src/test/java/com/base/BaseTest.java,1/7/17aec45706bb5bd1a7c9d26a9e982e35f2df2438
 Z
 *src/test/java/com/utilities/TestUtils.java,a/f/afec2f8119d26aaa2ba385b1fa90e7428090344a
+V
+&src/test/java/com/api/AllServices.java,d/c/dc6fa278050b5d0318eda4dc4637303f64814072
+Z
+*src/test/java/com/api/LoginApiService.java,e/b/eb70a1089b3487eecd6632b8ce0005e925d14aeb
+Y
+)src/test/java/com/mock/WireMockUtils.java,5/6/569cf624a95571bcb72cc8fa5129dfe2b745f846
