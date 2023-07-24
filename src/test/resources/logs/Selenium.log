@@ -396,3 +396,20 @@
 2023-07-24 10:23:32,820 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
 2023-07-24 10:23:32,820 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2023-07-24 10:23:32,820 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_UY", UTF-8, parsed) from "jar:file:/Users/edurand/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-07-24 10:36:14,656 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-07-24 10:36:14,695 -0500 [main] INFO  (TestListeners.java:20) - Starting test logInUsingMock
+2023-07-24 10:36:14,792 -0500 [main] INFO  (WireMockUtils.java:30) - Starting wiremock server
+2023-07-24 10:36:15,196 -0500 [main] INFO  (WireMockUtils.java:33) - Configuring wiremock server
+2023-07-24 10:36:15,896 -0500 [main] INFO  (LoginAPiTest.java:36) - Getting response using mock: ashdghjsadgjh37468734
+2023-07-24 10:36:15,904 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_UY", UTF-8, parsed); will try to load it.
+2023-07-24 10:36:15,905 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_UY.ftl"): Not found
+2023-07-24 10:36:15,905 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-07-24 10:36:15,906 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-07-24 10:36:15,906 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_UY", UTF-8, parsed) from "jar:file:/Users/edurand/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-07-24 10:57:31,229 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-07-24 10:57:31,252 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-07-24 10:57:43,720 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_UY", UTF-8, parsed); will try to load it.
+2023-07-24 10:57:43,720 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_UY.ftl"): Not found
+2023-07-24 10:57:43,721 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-07-24 10:57:43,721 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-07-24 10:57:43,721 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_UY", UTF-8, parsed) from "jar:file:/Users/edurand/Desktop/maven%20settings/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

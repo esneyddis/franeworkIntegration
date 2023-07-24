@@ -2,7 +2,6 @@ package com.base;
 
 import com.api.AbstractTest;
 import com.listeners.TestListeners;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
@@ -16,8 +15,6 @@ public class BaseTest extends AbstractTest {
 
     @BeforeClass
     public void setup() {
-        // add switch with all the browser options
-        WebDriverManager.chromedriver().setup();
         //Create a Chrome driver. All test classes use this.
         if(driver == null) {
             ChromeOptions options = new ChromeOptions();
