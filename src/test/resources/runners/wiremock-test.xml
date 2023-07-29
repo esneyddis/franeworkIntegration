@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Wiremock Test" verbose="1" parallel="tests">
+    <test name="Wiremock test" >
+        <classes>
+            <class name="com.testCases.LoginAPiTest">
+                <methods>
+                    <include name="logInUsingMock"/>
+                </methods>
+            </class>
+        </classes>
+   </test>
+  <!--  <test name="Api log In test" >
+        <classes>
+            <class name="com.testCases.LoginAPiTest">
+                <methods>
+                    <include name="logIn"/>
+                </methods>
+            </class>
+        </classes>
+    </test> -->
+
+</suite>
