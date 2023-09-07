@@ -733,3 +733,118 @@
 2023-08-12 21:07:51,624 -0500 [TestNG-tests-2] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
 2023-08-12 21:07:51,625 -0500 [TestNG-tests-2] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2023-08-12 21:07:51,625 -0500 [TestNG-tests-2] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_UY", UTF-8, parsed) from "jar:file:/Users/edurand/Desktop/maven%20settings/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-08-21 19:27:38,149 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:29:21,549 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:33:59,568 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:34:34,807 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:34:34,831 -0500 [main] INFO  (TestListeners.java:34) - This test have failed: loginInvalidUser java.lang.IllegalArgumentException: Input must be set
+2023-08-21 19:34:34,832 -0500 [main] INFO  (TestUtils.java:25) - Driver is null not screenshot was taken
+2023-08-21 19:34:34,838 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_UY", UTF-8, parsed); will try to load it.
+2023-08-21 19:34:34,839 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_UY.ftl"): Not found
+2023-08-21 19:34:34,839 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-08-21 19:34:34,839 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-08-21 19:34:34,839 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_UY", UTF-8, parsed) from "jar:file:/Users/edurand/Desktop/maven%20settings/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-08-21 19:34:34,924 -0500 [main] INFO  (TestListeners.java:44) - Test have failed: loginInvalidUser
+2023-08-21 19:36:33,941 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:36:33,966 -0500 [main] INFO  (TestListeners.java:34) - This test have failed: loginInvalidUser java.lang.IllegalArgumentException: Input must be set
+2023-08-21 19:36:33,966 -0500 [main] INFO  (TestUtils.java:25) - Driver is null not screenshot was taken
+2023-08-21 19:36:33,972 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_UY", UTF-8, parsed); will try to load it.
+2023-08-21 19:36:33,972 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_UY.ftl"): Not found
+2023-08-21 19:36:33,973 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-08-21 19:36:33,973 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-08-21 19:36:33,973 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_UY", UTF-8, parsed) from "jar:file:/Users/edurand/Desktop/maven%20settings/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-08-21 19:36:34,058 -0500 [main] INFO  (TestListeners.java:44) - Test have failed: loginInvalidUser
+2023-08-21 19:50:17,899 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:50:55,521 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:53:53,261 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:55:22,559 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:56:09,636 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:59:18,393 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:00:37,995 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:01:22,030 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:01:55,029 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:02:45,947 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:05:13,911 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:06:27,498 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:06:35,099 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:14:27,280 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:19:16,418 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:22:45,470 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:30:33,568 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:34:19,477 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:41:40,214 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:46:03,562 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:47:47,363 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:53:12,464 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:54:32,922 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:56:52,490 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 21:04:16,598 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 21:05:56,415 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 21:08:14,611 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 21:27:20,668 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 21:27:35,501 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 21:45:55,517 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 21:49:10,555 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 21:52:58,357 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 21:56:46,668 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 22:01:29,505 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 16:40:30,968 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 16:43:15,143 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 16:58:14,439 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 16:58:15,560 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:02:24,020 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:02:31,516 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:07:25,963 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:07:30,324 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:18:57,947 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:19:03,059 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:23:26,927 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:23:51,568 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:25:48,596 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:25:51,182 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:30:40,778 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:30:45,156 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:33:00,808 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:33:04,966 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:39:05,143 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:39:09,055 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:47:17,481 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:47:20,816 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:48:12,966 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:48:15,068 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 18:10:28,181 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 18:10:30,782 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 18:10:52,914 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 18:10:55,034 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 18:11:04,885 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 18:11:07,003 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:31:46,924 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:31:54,662 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:35:08,945 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:35:13,619 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:36:31,026 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:36:34,506 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:37:24,091 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:37:52,265 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:46:03,862 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:46:39,583 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:46:57,441 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:47:02,337 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:51:56,807 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:52:00,985 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:52:14,568 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:52:18,792 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:58:38,905 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:58:42,903 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:59:01,438 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:59:05,195 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 17:03:56,228 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 17:03:56,230 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 17:03:56,233 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 17:04:23,167 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 17:04:23,190 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 17:04:36,076 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_UY", UTF-8, parsed); will try to load it.
+2023-09-07 17:04:36,077 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_UY.ftl"): Not found
+2023-09-07 17:04:36,078 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-09-07 17:04:36,078 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-09-07 17:04:36,078 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_UY", UTF-8, parsed) from "jar:file:/Users/edurand/Desktop/maven%20settings/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
