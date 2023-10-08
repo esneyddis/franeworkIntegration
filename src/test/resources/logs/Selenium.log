@@ -413,3 +413,438 @@
 2023-07-24 10:57:43,721 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
 2023-07-24 10:57:43,721 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2023-07-24 10:57:43,721 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_UY", UTF-8, parsed) from "jar:file:/Users/edurand/Desktop/maven%20settings/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-08-12 20:26:12,870 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-12 20:26:12,908 -0500 [main] INFO  (TestListeners.java:20) - Starting test logInUsingMock
+2023-08-12 20:26:13,011 -0500 [main] INFO  (WireMockUtils.java:30) - Starting wiremock server
+2023-08-12 20:26:13,430 -0500 [main] INFO  (WireMockUtils.java:33) - Configuring wiremock server
+2023-08-12 20:26:13,955 -0500 [main] DEBUG (BasicClientConnectionManager.java:161) - Get connection for route {}->http://localhost:65272
+2023-08-12 20:26:13,960 -0500 [main] DEBUG (DefaultClientConnectionOperator.java:177) - Connecting to localhost:65272
+2023-08-12 20:26:13,965 -0500 [main] DEBUG (RequestAddCookies.java:123) - CookieSpec selected: ignoreCookies
+2023-08-12 20:26:13,966 -0500 [main] DEBUG (RequestAuthCache.java:77) - Auth cache not set in the context
+2023-08-12 20:26:13,966 -0500 [main] DEBUG (RequestTargetAuthentication.java:80) - Target auth state: UNCHALLENGED
+2023-08-12 20:26:13,966 -0500 [main] DEBUG (RequestProxyAuthentication.java:89) - Proxy auth state: UNCHALLENGED
+2023-08-12 20:26:13,967 -0500 [main] DEBUG (DefaultRequestDirector.java:677) - Attempt 1 to execute request
+2023-08-12 20:26:13,967 -0500 [main] DEBUG (DefaultClientConnection.java:274) - Sending request: POST /api/login HTTP/1.1
+2023-08-12 20:26:13,967 -0500 [main] DEBUG (Wire.java:73) -  >> "POST /api/login HTTP/1.1[\r][\n]"
+2023-08-12 20:26:13,967 -0500 [main] DEBUG (Wire.java:73) -  >> "Accept: */*[\r][\n]"
+2023-08-12 20:26:13,967 -0500 [main] DEBUG (Wire.java:73) -  >> "Content-Type: application/json[\r][\n]"
+2023-08-12 20:26:13,968 -0500 [main] DEBUG (Wire.java:73) -  >> "Content-Length: 57[\r][\n]"
+2023-08-12 20:26:13,968 -0500 [main] DEBUG (Wire.java:73) -  >> "Host: localhost:65272[\r][\n]"
+2023-08-12 20:26:13,968 -0500 [main] DEBUG (Wire.java:73) -  >> "Connection: Keep-Alive[\r][\n]"
+2023-08-12 20:26:13,968 -0500 [main] DEBUG (Wire.java:73) -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+2023-08-12 20:26:13,968 -0500 [main] DEBUG (Wire.java:73) -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-08-12 20:26:13,968 -0500 [main] DEBUG (Wire.java:73) -  >> "[\r][\n]"
+2023-08-12 20:26:13,969 -0500 [main] DEBUG (DefaultClientConnection.java:278) - >> POST /api/login HTTP/1.1
+2023-08-12 20:26:13,969 -0500 [main] DEBUG (DefaultClientConnection.java:281) - >> Accept: */*
+2023-08-12 20:26:13,969 -0500 [main] DEBUG (DefaultClientConnection.java:281) - >> Content-Type: application/json
+2023-08-12 20:26:13,969 -0500 [main] DEBUG (DefaultClientConnection.java:281) - >> Content-Length: 57
+2023-08-12 20:26:13,969 -0500 [main] DEBUG (DefaultClientConnection.java:281) - >> Host: localhost:65272
+2023-08-12 20:26:13,969 -0500 [main] DEBUG (DefaultClientConnection.java:281) - >> Connection: Keep-Alive
+2023-08-12 20:26:13,969 -0500 [main] DEBUG (DefaultClientConnection.java:281) - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+2023-08-12 20:26:13,969 -0500 [main] DEBUG (DefaultClientConnection.java:281) - >> Accept-Encoding: gzip,deflate
+2023-08-12 20:26:13,970 -0500 [main] DEBUG (Wire.java:87) -  >> "{"username":"eve.holt@reqres.in","password":"cityslicka"}"
+2023-08-12 20:26:14,021 -0500 [main] DEBUG (Wire.java:73) -  << "HTTP/1.1 200 OK[\r][\n]"
+2023-08-12 20:26:14,021 -0500 [main] DEBUG (Wire.java:73) -  << "Content-Type: application/json[\r][\n]"
+2023-08-12 20:26:14,021 -0500 [main] DEBUG (Wire.java:73) -  << "Matched-Stub-Id: ef49910b-4142-47af-ab28-76704a3000d3[\r][\n]"
+2023-08-12 20:26:14,022 -0500 [main] DEBUG (Wire.java:73) -  << "Vary: Accept-Encoding, User-Agent[\r][\n]"
+2023-08-12 20:26:14,022 -0500 [main] DEBUG (Wire.java:73) -  << "Content-Encoding: gzip[\r][\n]"
+2023-08-12 20:26:14,022 -0500 [main] DEBUG (Wire.java:73) -  << "Transfer-Encoding: chunked[\r][\n]"
+2023-08-12 20:26:14,022 -0500 [main] DEBUG (Wire.java:73) -  << "[\r][\n]"
+2023-08-12 20:26:14,022 -0500 [main] DEBUG (DefaultClientConnection.java:259) - Receiving response: HTTP/1.1 200 OK
+2023-08-12 20:26:14,023 -0500 [main] DEBUG (DefaultClientConnection.java:262) - << HTTP/1.1 200 OK
+2023-08-12 20:26:14,023 -0500 [main] DEBUG (DefaultClientConnection.java:265) - << Content-Type: application/json
+2023-08-12 20:26:14,023 -0500 [main] DEBUG (DefaultClientConnection.java:265) - << Matched-Stub-Id: ef49910b-4142-47af-ab28-76704a3000d3
+2023-08-12 20:26:14,023 -0500 [main] DEBUG (DefaultClientConnection.java:265) - << Vary: Accept-Encoding, User-Agent
+2023-08-12 20:26:14,023 -0500 [main] DEBUG (DefaultClientConnection.java:265) - << Content-Encoding: gzip
+2023-08-12 20:26:14,023 -0500 [main] DEBUG (DefaultClientConnection.java:265) - << Transfer-Encoding: chunked
+2023-08-12 20:26:14,025 -0500 [main] DEBUG (DefaultRequestDirector.java:504) - Connection can be kept alive indefinitely
+2023-08-12 20:26:14,027 -0500 [main] DEBUG (HTTPBuilder.java:553) - Parsing response as: application/json
+2023-08-12 20:26:14,027 -0500 [main] DEBUG (Wire.java:73) -  << "A[\r][\n]"
+2023-08-12 20:26:14,028 -0500 [main] DEBUG (Wire.java:87) -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0]"
+2023-08-12 20:26:14,070 -0500 [main] DEBUG (Wire.java:73) -  << "[\r][\n]"
+2023-08-12 20:26:14,070 -0500 [main] DEBUG (Wire.java:73) -  << "21[\r][\n]"
+2023-08-12 20:26:14,070 -0500 [main] DEBUG (Wire.java:87) -  << "SJ,[0xce]HI[0xcf][0xc8]*NLI[0xcf][0xca]0671[0xb3]076Q[0x2][0x0]S[0xf2]i[0xb3][0x17][0x0][0x0][0x0]"
+2023-08-12 20:26:14,070 -0500 [main] DEBUG (Wire.java:73) -  << "[\r][\n]"
+2023-08-12 20:26:14,070 -0500 [main] DEBUG (Wire.java:73) -  << "0[\r][\n]"
+2023-08-12 20:26:14,071 -0500 [main] DEBUG (Wire.java:73) -  << "[\r][\n]"
+2023-08-12 20:26:14,073 -0500 [main] DEBUG (HTTPBuilder.java:556) - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-08-12 20:26:14,098 -0500 [main] DEBUG (BasicClientConnectionManager.java:200) - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@b75b890
+2023-08-12 20:26:14,099 -0500 [main] DEBUG (BasicClientConnectionManager.java:225) - Connection can be kept alive indefinitely
+2023-08-12 20:26:14,118 -0500 [main] INFO  (LoginAPiTest.java:36) - Getting response using mock: ashdghjsadgjh37468734
+2023-08-12 20:26:14,126 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_UY", UTF-8, parsed); will try to load it.
+2023-08-12 20:26:14,126 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_UY.ftl"): Not found
+2023-08-12 20:26:14,127 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-08-12 20:26:14,127 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-08-12 20:26:14,127 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_UY", UTF-8, parsed) from "jar:file:/Users/edurand/Desktop/maven%20settings/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-08-12 21:06:39,588 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-12 21:06:39,630 -0500 [TestNG-tests-1] INFO  (TestListeners.java:20) - Starting test logInUsingMock
+2023-08-12 21:06:39,713 -0500 [TestNG-tests-1] INFO  (WireMockUtils.java:30) - Starting wiremock server
+2023-08-12 21:06:40,046 -0500 [TestNG-tests-1] INFO  (WireMockUtils.java:33) - Configuring wiremock server
+2023-08-12 21:06:40,537 -0500 [TestNG-tests-1] DEBUG (BasicClientConnectionManager.java:161) - Get connection for route {}->http://localhost:49977
+2023-08-12 21:06:40,539 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnectionOperator.java:177) - Connecting to localhost:49977
+2023-08-12 21:06:40,545 -0500 [TestNG-tests-1] DEBUG (RequestAddCookies.java:123) - CookieSpec selected: ignoreCookies
+2023-08-12 21:06:40,545 -0500 [TestNG-tests-1] DEBUG (RequestAuthCache.java:77) - Auth cache not set in the context
+2023-08-12 21:06:40,545 -0500 [TestNG-tests-1] DEBUG (RequestTargetAuthentication.java:80) - Target auth state: UNCHALLENGED
+2023-08-12 21:06:40,546 -0500 [TestNG-tests-1] DEBUG (RequestProxyAuthentication.java:89) - Proxy auth state: UNCHALLENGED
+2023-08-12 21:06:40,546 -0500 [TestNG-tests-1] DEBUG (DefaultRequestDirector.java:677) - Attempt 1 to execute request
+2023-08-12 21:06:40,546 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:274) - Sending request: POST /api/login HTTP/1.1
+2023-08-12 21:06:40,546 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "POST /api/login HTTP/1.1[\r][\n]"
+2023-08-12 21:06:40,547 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "Accept: */*[\r][\n]"
+2023-08-12 21:06:40,547 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "Content-Type: application/json[\r][\n]"
+2023-08-12 21:06:40,547 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "Content-Length: 57[\r][\n]"
+2023-08-12 21:06:40,547 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "Host: localhost:49977[\r][\n]"
+2023-08-12 21:06:40,547 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "Connection: Keep-Alive[\r][\n]"
+2023-08-12 21:06:40,548 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+2023-08-12 21:06:40,548 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-08-12 21:06:40,548 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "[\r][\n]"
+2023-08-12 21:06:40,548 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:278) - >> POST /api/login HTTP/1.1
+2023-08-12 21:06:40,548 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> Accept: */*
+2023-08-12 21:06:40,548 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> Content-Type: application/json
+2023-08-12 21:06:40,548 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> Content-Length: 57
+2023-08-12 21:06:40,548 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> Host: localhost:49977
+2023-08-12 21:06:40,548 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> Connection: Keep-Alive
+2023-08-12 21:06:40,548 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+2023-08-12 21:06:40,549 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> Accept-Encoding: gzip,deflate
+2023-08-12 21:06:40,549 -0500 [TestNG-tests-1] DEBUG (Wire.java:87) -  >> "{"username":"eve.holt@reqres.in","password":"cityslicka"}"
+2023-08-12 21:06:40,603 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "HTTP/1.1 200 OK[\r][\n]"
+2023-08-12 21:06:40,604 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "Content-Type: application/json[\r][\n]"
+2023-08-12 21:06:40,604 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "Matched-Stub-Id: 6afdf3b5-dad3-434a-90b7-e00c0820c086[\r][\n]"
+2023-08-12 21:06:40,604 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "Vary: Accept-Encoding, User-Agent[\r][\n]"
+2023-08-12 21:06:40,604 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "Content-Encoding: gzip[\r][\n]"
+2023-08-12 21:06:40,604 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "Transfer-Encoding: chunked[\r][\n]"
+2023-08-12 21:06:40,604 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "[\r][\n]"
+2023-08-12 21:06:40,605 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:259) - Receiving response: HTTP/1.1 200 OK
+2023-08-12 21:06:40,605 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:262) - << HTTP/1.1 200 OK
+2023-08-12 21:06:40,605 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:265) - << Content-Type: application/json
+2023-08-12 21:06:40,605 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:265) - << Matched-Stub-Id: 6afdf3b5-dad3-434a-90b7-e00c0820c086
+2023-08-12 21:06:40,605 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:265) - << Vary: Accept-Encoding, User-Agent
+2023-08-12 21:06:40,605 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:265) - << Content-Encoding: gzip
+2023-08-12 21:06:40,605 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:265) - << Transfer-Encoding: chunked
+2023-08-12 21:06:40,607 -0500 [TestNG-tests-1] DEBUG (DefaultRequestDirector.java:504) - Connection can be kept alive indefinitely
+2023-08-12 21:06:40,609 -0500 [TestNG-tests-1] DEBUG (HTTPBuilder.java:553) - Parsing response as: application/json
+2023-08-12 21:06:40,610 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "A[\r][\n]"
+2023-08-12 21:06:40,610 -0500 [TestNG-tests-1] DEBUG (Wire.java:87) -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0]"
+2023-08-12 21:06:40,654 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "[\r][\n]"
+2023-08-12 21:06:40,654 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "21[\r][\n]"
+2023-08-12 21:06:40,654 -0500 [TestNG-tests-1] DEBUG (Wire.java:87) -  << "SJ,[0xce]HI[0xcf][0xc8]*NLI[0xcf][0xca]0671[0xb3]076Q[0x2][0x0]S[0xf2]i[0xb3][0x17][0x0][0x0][0x0]"
+2023-08-12 21:06:40,654 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "[\r][\n]"
+2023-08-12 21:06:40,654 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "0[\r][\n]"
+2023-08-12 21:06:40,654 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "[\r][\n]"
+2023-08-12 21:06:40,655 -0500 [TestNG-tests-1] DEBUG (HTTPBuilder.java:556) - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-08-12 21:06:40,677 -0500 [TestNG-tests-1] DEBUG (BasicClientConnectionManager.java:200) - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@56958e2
+2023-08-12 21:06:40,677 -0500 [TestNG-tests-1] DEBUG (BasicClientConnectionManager.java:225) - Connection can be kept alive indefinitely
+2023-08-12 21:06:40,695 -0500 [TestNG-tests-1] INFO  (LoginAPiTest.java:36) - Getting response using mock: ashdghjsadgjh37468734
+2023-08-12 21:06:40,701 -0500 [TestNG-tests-1] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_UY", UTF-8, parsed); will try to load it.
+2023-08-12 21:06:40,701 -0500 [TestNG-tests-1] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_UY.ftl"): Not found
+2023-08-12 21:06:40,702 -0500 [TestNG-tests-1] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-08-12 21:06:40,702 -0500 [TestNG-tests-1] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-08-12 21:06:40,702 -0500 [TestNG-tests-1] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_UY", UTF-8, parsed) from "jar:file:/Users/edurand/Desktop/maven%20settings/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-08-12 21:06:40,812 -0500 [TestNG-tests-1] INFO  (TestListeners.java:20) - Starting test logIn
+2023-08-12 21:06:40,822 -0500 [TestNG-tests-1] DEBUG (BasicClientConnectionManager.java:161) - Get connection for route {}->http://localhost:49977
+2023-08-12 21:06:40,822 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnectionOperator.java:177) - Connecting to localhost:49977
+2023-08-12 21:06:40,823 -0500 [TestNG-tests-1] DEBUG (RequestAddCookies.java:123) - CookieSpec selected: ignoreCookies
+2023-08-12 21:06:40,823 -0500 [TestNG-tests-1] DEBUG (RequestAuthCache.java:77) - Auth cache not set in the context
+2023-08-12 21:06:40,823 -0500 [TestNG-tests-1] DEBUG (RequestTargetAuthentication.java:80) - Target auth state: UNCHALLENGED
+2023-08-12 21:06:40,823 -0500 [TestNG-tests-1] DEBUG (RequestProxyAuthentication.java:89) - Proxy auth state: UNCHALLENGED
+2023-08-12 21:06:40,823 -0500 [TestNG-tests-1] DEBUG (DefaultRequestDirector.java:677) - Attempt 1 to execute request
+2023-08-12 21:06:40,823 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:274) - Sending request: POST /api/login HTTP/1.1
+2023-08-12 21:06:40,823 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "POST /api/login HTTP/1.1[\r][\n]"
+2023-08-12 21:06:40,824 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "Accept: */*[\r][\n]"
+2023-08-12 21:06:40,824 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "Content-Type: application/json[\r][\n]"
+2023-08-12 21:06:40,824 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "Content-Length: 57[\r][\n]"
+2023-08-12 21:06:40,824 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "Host: localhost:49977[\r][\n]"
+2023-08-12 21:06:40,824 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "Connection: Keep-Alive[\r][\n]"
+2023-08-12 21:06:40,824 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+2023-08-12 21:06:40,824 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-08-12 21:06:40,824 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "[\r][\n]"
+2023-08-12 21:06:40,824 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:278) - >> POST /api/login HTTP/1.1
+2023-08-12 21:06:40,824 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> Accept: */*
+2023-08-12 21:06:40,825 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> Content-Type: application/json
+2023-08-12 21:06:40,825 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> Content-Length: 57
+2023-08-12 21:06:40,825 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> Host: localhost:49977
+2023-08-12 21:06:40,825 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> Connection: Keep-Alive
+2023-08-12 21:06:40,825 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+2023-08-12 21:06:40,825 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> Accept-Encoding: gzip,deflate
+2023-08-12 21:06:40,825 -0500 [TestNG-tests-1] DEBUG (Wire.java:87) -  >> "{"username":"eve.holt@reqres.in","password":"cityslicka"}"
+2023-08-12 21:06:42,833 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "HTTP/1.1 200 OK[\r][\n]"
+2023-08-12 21:06:42,833 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "Content-Type: application/json[\r][\n]"
+2023-08-12 21:06:42,834 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "Matched-Stub-Id: 045934f5-0152-4ebd-aaa5-efeb796fac4d[\r][\n]"
+2023-08-12 21:06:42,834 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "Vary: Accept-Encoding, User-Agent[\r][\n]"
+2023-08-12 21:06:42,834 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "Content-Encoding: gzip[\r][\n]"
+2023-08-12 21:06:42,835 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "Transfer-Encoding: chunked[\r][\n]"
+2023-08-12 21:06:42,835 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "[\r][\n]"
+2023-08-12 21:06:42,835 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:259) - Receiving response: HTTP/1.1 200 OK
+2023-08-12 21:06:42,835 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:262) - << HTTP/1.1 200 OK
+2023-08-12 21:06:42,836 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:265) - << Content-Type: application/json
+2023-08-12 21:06:42,836 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:265) - << Matched-Stub-Id: 045934f5-0152-4ebd-aaa5-efeb796fac4d
+2023-08-12 21:06:42,836 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:265) - << Vary: Accept-Encoding, User-Agent
+2023-08-12 21:06:42,837 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:265) - << Content-Encoding: gzip
+2023-08-12 21:06:42,837 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:265) - << Transfer-Encoding: chunked
+2023-08-12 21:06:42,837 -0500 [TestNG-tests-1] DEBUG (DefaultRequestDirector.java:504) - Connection can be kept alive indefinitely
+2023-08-12 21:06:42,837 -0500 [TestNG-tests-1] DEBUG (HTTPBuilder.java:553) - Parsing response as: application/json
+2023-08-12 21:06:42,838 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "A[\r][\n]"
+2023-08-12 21:06:42,838 -0500 [TestNG-tests-1] DEBUG (Wire.java:87) -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0]"
+2023-08-12 21:06:42,838 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "[\r][\n]"
+2023-08-12 21:06:42,838 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "2C[\r][\n]"
+2023-08-12 21:06:42,838 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "[0xab]V*[0xc9][0xcf]N[0xcd]S[0xb2]RP[\n]"
+2023-08-12 21:06:42,839 -0500 [TestNG-tests-1] DEBUG (Wire.java:87) -  << ",([0xf7]1-[0xc9]N5[0x9][0xc8]+[0xc8]J4[0x8f]03761Q[0xaa][0x5][0x0][0x1f][0xe6][0xaf][0x4]"[0x0][0x0][0x0]"
+2023-08-12 21:06:42,839 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "[\r][\n]"
+2023-08-12 21:06:42,839 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "0[\r][\n]"
+2023-08-12 21:06:42,839 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "[\r][\n]"
+2023-08-12 21:06:42,839 -0500 [TestNG-tests-1] DEBUG (HTTPBuilder.java:556) - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-08-12 21:06:42,842 -0500 [TestNG-tests-1] DEBUG (BasicClientConnectionManager.java:200) - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1d55cbc2
+2023-08-12 21:06:42,843 -0500 [TestNG-tests-1] DEBUG (BasicClientConnectionManager.java:225) - Connection can be kept alive indefinitely
+2023-08-12 21:06:42,845 -0500 [TestNG-tests-1] INFO  (LoginAPiTest.java:25) - Getting responseQpwL5tke4Pnpja7X67344
+2023-08-12 21:06:42,845 -0500 [TestNG-tests-1] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_UY", UTF-8, parsed); will try to load it.
+2023-08-12 21:06:42,846 -0500 [TestNG-tests-1] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_UY.ftl"): Not found
+2023-08-12 21:06:42,846 -0500 [TestNG-tests-1] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-08-12 21:06:42,846 -0500 [TestNG-tests-1] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-08-12 21:06:42,846 -0500 [TestNG-tests-1] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_UY", UTF-8, parsed) from "jar:file:/Users/edurand/Desktop/maven%20settings/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-08-12 21:07:50,303 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-12 21:07:50,321 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-12 21:07:50,346 -0500 [TestNG-tests-1] INFO  (TestListeners.java:20) - Starting test logInUsingMock
+2023-08-12 21:07:50,346 -0500 [TestNG-tests-2] INFO  (TestListeners.java:20) - Starting test logIn
+2023-08-12 21:07:50,445 -0500 [TestNG-tests-1] INFO  (WireMockUtils.java:30) - Starting wiremock server
+2023-08-12 21:07:50,816 -0500 [TestNG-tests-2] DEBUG (BasicClientConnectionManager.java:161) - Get connection for route {s}->https://reqres.in:443
+2023-08-12 21:07:50,823 -0500 [TestNG-tests-1] INFO  (WireMockUtils.java:33) - Configuring wiremock server
+2023-08-12 21:07:50,873 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnectionOperator.java:177) - Connecting to reqres.in:443
+2023-08-12 21:07:50,896 -0500 [TestNG-tests-1] DEBUG (BasicClientConnectionManager.java:161) - Get connection for route {}->http://localhost:50016
+2023-08-12 21:07:50,896 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnectionOperator.java:177) - Connecting to localhost:50016
+2023-08-12 21:07:50,902 -0500 [TestNG-tests-1] DEBUG (RequestAddCookies.java:123) - CookieSpec selected: ignoreCookies
+2023-08-12 21:07:50,902 -0500 [TestNG-tests-1] DEBUG (RequestAuthCache.java:77) - Auth cache not set in the context
+2023-08-12 21:07:50,903 -0500 [TestNG-tests-1] DEBUG (RequestTargetAuthentication.java:80) - Target auth state: UNCHALLENGED
+2023-08-12 21:07:50,903 -0500 [TestNG-tests-1] DEBUG (RequestProxyAuthentication.java:89) - Proxy auth state: UNCHALLENGED
+2023-08-12 21:07:50,903 -0500 [TestNG-tests-1] DEBUG (DefaultRequestDirector.java:677) - Attempt 1 to execute request
+2023-08-12 21:07:50,903 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:274) - Sending request: POST /api/login HTTP/1.1
+2023-08-12 21:07:50,904 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "POST /api/login HTTP/1.1[\r][\n]"
+2023-08-12 21:07:50,904 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "Accept: */*[\r][\n]"
+2023-08-12 21:07:50,904 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "Content-Type: application/json[\r][\n]"
+2023-08-12 21:07:50,904 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "Content-Length: 57[\r][\n]"
+2023-08-12 21:07:50,904 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "Host: localhost:50016[\r][\n]"
+2023-08-12 21:07:50,905 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "Connection: Keep-Alive[\r][\n]"
+2023-08-12 21:07:50,905 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+2023-08-12 21:07:50,905 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-08-12 21:07:50,905 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  >> "[\r][\n]"
+2023-08-12 21:07:50,905 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:278) - >> POST /api/login HTTP/1.1
+2023-08-12 21:07:50,905 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> Accept: */*
+2023-08-12 21:07:50,905 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> Content-Type: application/json
+2023-08-12 21:07:50,905 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> Content-Length: 57
+2023-08-12 21:07:50,905 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> Host: localhost:50016
+2023-08-12 21:07:50,906 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> Connection: Keep-Alive
+2023-08-12 21:07:50,906 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+2023-08-12 21:07:50,906 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:281) - >> Accept-Encoding: gzip,deflate
+2023-08-12 21:07:50,906 -0500 [TestNG-tests-1] DEBUG (Wire.java:87) -  >> "{"username":"eve.holt@reqres.in","password":"cityslicka"}"
+2023-08-12 21:07:50,961 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "HTTP/1.1 200 OK[\r][\n]"
+2023-08-12 21:07:50,961 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "Content-Type: application/json[\r][\n]"
+2023-08-12 21:07:50,962 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "Matched-Stub-Id: c3a09ac6-a30f-4c6d-a82c-e1b42c0df4d3[\r][\n]"
+2023-08-12 21:07:50,962 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "Vary: Accept-Encoding, User-Agent[\r][\n]"
+2023-08-12 21:07:50,962 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "Content-Encoding: gzip[\r][\n]"
+2023-08-12 21:07:50,962 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "Transfer-Encoding: chunked[\r][\n]"
+2023-08-12 21:07:50,962 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "[\r][\n]"
+2023-08-12 21:07:50,962 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:259) - Receiving response: HTTP/1.1 200 OK
+2023-08-12 21:07:50,962 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:262) - << HTTP/1.1 200 OK
+2023-08-12 21:07:50,962 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:265) - << Content-Type: application/json
+2023-08-12 21:07:50,963 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:265) - << Matched-Stub-Id: c3a09ac6-a30f-4c6d-a82c-e1b42c0df4d3
+2023-08-12 21:07:50,963 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:265) - << Vary: Accept-Encoding, User-Agent
+2023-08-12 21:07:50,963 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:265) - << Content-Encoding: gzip
+2023-08-12 21:07:50,963 -0500 [TestNG-tests-1] DEBUG (DefaultClientConnection.java:265) - << Transfer-Encoding: chunked
+2023-08-12 21:07:50,965 -0500 [TestNG-tests-1] DEBUG (DefaultRequestDirector.java:504) - Connection can be kept alive indefinitely
+2023-08-12 21:07:50,967 -0500 [TestNG-tests-1] DEBUG (HTTPBuilder.java:553) - Parsing response as: application/json
+2023-08-12 21:07:50,967 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "A[\r][\n]"
+2023-08-12 21:07:50,967 -0500 [TestNG-tests-1] DEBUG (Wire.java:87) -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0]"
+2023-08-12 21:07:51,008 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "[\r][\n]"
+2023-08-12 21:07:51,008 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "21[\r][\n]"
+2023-08-12 21:07:51,008 -0500 [TestNG-tests-1] DEBUG (Wire.java:87) -  << "SJ,[0xce]HI[0xcf][0xc8]*NLI[0xcf][0xca]0671[0xb3]076Q[0x2][0x0]S[0xf2]i[0xb3][0x17][0x0][0x0][0x0]"
+2023-08-12 21:07:51,008 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "[\r][\n]"
+2023-08-12 21:07:51,009 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "0[\r][\n]"
+2023-08-12 21:07:51,009 -0500 [TestNG-tests-1] DEBUG (Wire.java:73) -  << "[\r][\n]"
+2023-08-12 21:07:51,009 -0500 [TestNG-tests-1] DEBUG (HTTPBuilder.java:556) - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-08-12 21:07:51,030 -0500 [TestNG-tests-1] DEBUG (BasicClientConnectionManager.java:200) - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16709a3e
+2023-08-12 21:07:51,030 -0500 [TestNG-tests-1] DEBUG (BasicClientConnectionManager.java:225) - Connection can be kept alive indefinitely
+2023-08-12 21:07:51,052 -0500 [TestNG-tests-1] INFO  (LoginAPiTest.java:36) - Getting response using mock: ashdghjsadgjh37468734
+2023-08-12 21:07:51,058 -0500 [TestNG-tests-1] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_UY", UTF-8, parsed); will try to load it.
+2023-08-12 21:07:51,059 -0500 [TestNG-tests-1] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_UY.ftl"): Not found
+2023-08-12 21:07:51,059 -0500 [TestNG-tests-1] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-08-12 21:07:51,059 -0500 [TestNG-tests-1] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-08-12 21:07:51,059 -0500 [TestNG-tests-1] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_UY", UTF-8, parsed) from "jar:file:/Users/edurand/Desktop/maven%20settings/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-08-12 21:07:51,260 -0500 [TestNG-tests-2] DEBUG (RequestAddCookies.java:123) - CookieSpec selected: ignoreCookies
+2023-08-12 21:07:51,260 -0500 [TestNG-tests-2] DEBUG (RequestAuthCache.java:77) - Auth cache not set in the context
+2023-08-12 21:07:51,260 -0500 [TestNG-tests-2] DEBUG (RequestTargetAuthentication.java:80) - Target auth state: UNCHALLENGED
+2023-08-12 21:07:51,260 -0500 [TestNG-tests-2] DEBUG (RequestProxyAuthentication.java:89) - Proxy auth state: UNCHALLENGED
+2023-08-12 21:07:51,260 -0500 [TestNG-tests-2] DEBUG (DefaultRequestDirector.java:677) - Attempt 1 to execute request
+2023-08-12 21:07:51,260 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:274) - Sending request: POST /api/login HTTP/1.1
+2023-08-12 21:07:51,260 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  >> "POST /api/login HTTP/1.1[\r][\n]"
+2023-08-12 21:07:51,261 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  >> "Accept: */*[\r][\n]"
+2023-08-12 21:07:51,261 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  >> "Content-Type: application/json[\r][\n]"
+2023-08-12 21:07:51,261 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  >> "Content-Length: 57[\r][\n]"
+2023-08-12 21:07:51,261 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  >> "Host: reqres.in[\r][\n]"
+2023-08-12 21:07:51,261 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  >> "Connection: Keep-Alive[\r][\n]"
+2023-08-12 21:07:51,261 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+2023-08-12 21:07:51,261 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-08-12 21:07:51,261 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  >> "[\r][\n]"
+2023-08-12 21:07:51,261 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:278) - >> POST /api/login HTTP/1.1
+2023-08-12 21:07:51,262 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:281) - >> Accept: */*
+2023-08-12 21:07:51,262 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:281) - >> Content-Type: application/json
+2023-08-12 21:07:51,262 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:281) - >> Content-Length: 57
+2023-08-12 21:07:51,262 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:281) - >> Host: reqres.in
+2023-08-12 21:07:51,262 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:281) - >> Connection: Keep-Alive
+2023-08-12 21:07:51,262 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:281) - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+2023-08-12 21:07:51,262 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:281) - >> Accept-Encoding: gzip,deflate
+2023-08-12 21:07:51,262 -0500 [TestNG-tests-2] DEBUG (Wire.java:87) -  >> "{"username":"eve.holt@reqres.in","password":"cityslicka"}"
+2023-08-12 21:07:51,604 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  << "HTTP/1.1 200 OK[\r][\n]"
+2023-08-12 21:07:51,605 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  << "Date: Sun, 13 Aug 2023 02:07:47 GMT[\r][\n]"
+2023-08-12 21:07:51,606 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2023-08-12 21:07:51,606 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  << "Content-Length: 29[\r][\n]"
+2023-08-12 21:07:51,606 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  << "Connection: keep-alive[\r][\n]"
+2023-08-12 21:07:51,607 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  << "X-Powered-By: Express[\r][\n]"
+2023-08-12 21:07:51,607 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2023-08-12 21:07:51,608 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  << "Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"[\r][\n]"
+2023-08-12 21:07:51,608 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  << "Via: 1.1 vegur[\r][\n]"
+2023-08-12 21:07:51,608 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2023-08-12 21:07:51,608 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8uzBtzVIi%2BrIJZZMMTY8xANZaA5kk43RxyW7j2YAuG%2BVOGoobJk5kZUwnoruRUutY3KroiyIlXpT2Cy%2Bq%2FdYV%2Fh%2BBi5881lXc2dIXUDLDDIa99R7JbMaXIVucA%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2023-08-12 21:07:51,609 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2023-08-12 21:07:51,609 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  << "Server: cloudflare[\r][\n]"
+2023-08-12 21:07:51,609 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  << "CF-RAY: 7f5d6810fe8eeaf6-DFW[\r][\n]"
+2023-08-12 21:07:51,610 -0500 [TestNG-tests-2] DEBUG (Wire.java:73) -  << "[\r][\n]"
+2023-08-12 21:07:51,610 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:259) - Receiving response: HTTP/1.1 200 OK
+2023-08-12 21:07:51,610 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:262) - << HTTP/1.1 200 OK
+2023-08-12 21:07:51,610 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:265) - << Date: Sun, 13 Aug 2023 02:07:47 GMT
+2023-08-12 21:07:51,610 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:265) - << Content-Type: application/json; charset=utf-8
+2023-08-12 21:07:51,611 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:265) - << Content-Length: 29
+2023-08-12 21:07:51,611 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:265) - << Connection: keep-alive
+2023-08-12 21:07:51,611 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:265) - << X-Powered-By: Express
+2023-08-12 21:07:51,611 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:265) - << Access-Control-Allow-Origin: *
+2023-08-12 21:07:51,612 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:265) - << Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+2023-08-12 21:07:51,612 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:265) - << Via: 1.1 vegur
+2023-08-12 21:07:51,612 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:265) - << CF-Cache-Status: DYNAMIC
+2023-08-12 21:07:51,612 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:265) - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8uzBtzVIi%2BrIJZZMMTY8xANZaA5kk43RxyW7j2YAuG%2BVOGoobJk5kZUwnoruRUutY3KroiyIlXpT2Cy%2Bq%2FdYV%2Fh%2BBi5881lXc2dIXUDLDDIa99R7JbMaXIVucA%3D%3D"}],"group":"cf-nel","max_age":604800}
+2023-08-12 21:07:51,612 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:265) - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2023-08-12 21:07:51,613 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:265) - << Server: cloudflare
+2023-08-12 21:07:51,613 -0500 [TestNG-tests-2] DEBUG (DefaultClientConnection.java:265) - << CF-RAY: 7f5d6810fe8eeaf6-DFW
+2023-08-12 21:07:51,614 -0500 [TestNG-tests-2] DEBUG (DefaultRequestDirector.java:504) - Connection can be kept alive indefinitely
+2023-08-12 21:07:51,615 -0500 [TestNG-tests-2] DEBUG (HTTPBuilder.java:553) - Parsing response as: application/json; charset=utf-8
+2023-08-12 21:07:51,615 -0500 [TestNG-tests-2] DEBUG (HTTPBuilder.java:556) - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-08-12 21:07:51,622 -0500 [TestNG-tests-2] DEBUG (Wire.java:87) -  << "{"token":"QpwL5tke4Pnpja7X4"}"
+2023-08-12 21:07:51,622 -0500 [TestNG-tests-2] DEBUG (BasicClientConnectionManager.java:200) - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5942a7af
+2023-08-12 21:07:51,623 -0500 [TestNG-tests-2] DEBUG (BasicClientConnectionManager.java:225) - Connection can be kept alive indefinitely
+2023-08-12 21:07:51,624 -0500 [TestNG-tests-2] INFO  (LoginAPiTest.java:25) - Getting responseQpwL5tke4Pnpja7X4
+2023-08-12 21:07:51,624 -0500 [TestNG-tests-2] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_UY", UTF-8, parsed); will try to load it.
+2023-08-12 21:07:51,624 -0500 [TestNG-tests-2] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_UY.ftl"): Not found
+2023-08-12 21:07:51,624 -0500 [TestNG-tests-2] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-08-12 21:07:51,625 -0500 [TestNG-tests-2] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-08-12 21:07:51,625 -0500 [TestNG-tests-2] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_UY", UTF-8, parsed) from "jar:file:/Users/edurand/Desktop/maven%20settings/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-08-21 19:27:38,149 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:29:21,549 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:33:59,568 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:34:34,807 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:34:34,831 -0500 [main] INFO  (TestListeners.java:34) - This test have failed: loginInvalidUser java.lang.IllegalArgumentException: Input must be set
+2023-08-21 19:34:34,832 -0500 [main] INFO  (TestUtils.java:25) - Driver is null not screenshot was taken
+2023-08-21 19:34:34,838 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_UY", UTF-8, parsed); will try to load it.
+2023-08-21 19:34:34,839 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_UY.ftl"): Not found
+2023-08-21 19:34:34,839 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-08-21 19:34:34,839 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-08-21 19:34:34,839 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_UY", UTF-8, parsed) from "jar:file:/Users/edurand/Desktop/maven%20settings/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-08-21 19:34:34,924 -0500 [main] INFO  (TestListeners.java:44) - Test have failed: loginInvalidUser
+2023-08-21 19:36:33,941 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:36:33,966 -0500 [main] INFO  (TestListeners.java:34) - This test have failed: loginInvalidUser java.lang.IllegalArgumentException: Input must be set
+2023-08-21 19:36:33,966 -0500 [main] INFO  (TestUtils.java:25) - Driver is null not screenshot was taken
+2023-08-21 19:36:33,972 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_UY", UTF-8, parsed); will try to load it.
+2023-08-21 19:36:33,972 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_UY.ftl"): Not found
+2023-08-21 19:36:33,973 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-08-21 19:36:33,973 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-08-21 19:36:33,973 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_UY", UTF-8, parsed) from "jar:file:/Users/edurand/Desktop/maven%20settings/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-08-21 19:36:34,058 -0500 [main] INFO  (TestListeners.java:44) - Test have failed: loginInvalidUser
+2023-08-21 19:50:17,899 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:50:55,521 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:53:53,261 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:55:22,559 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:56:09,636 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 19:59:18,393 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:00:37,995 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:01:22,030 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:01:55,029 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:02:45,947 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:05:13,911 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:06:27,498 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:06:35,099 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:14:27,280 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:19:16,418 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:22:45,470 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:30:33,568 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:34:19,477 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:41:40,214 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:46:03,562 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:47:47,363 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:53:12,464 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:54:32,922 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 20:56:52,490 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 21:04:16,598 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 21:05:56,415 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 21:08:14,611 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 21:27:20,668 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 21:27:35,501 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 21:45:55,517 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 21:49:10,555 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 21:52:58,357 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 21:56:46,668 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-21 22:01:29,505 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 16:40:30,968 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 16:43:15,143 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 16:58:14,439 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 16:58:15,560 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:02:24,020 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:02:31,516 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:07:25,963 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:07:30,324 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:18:57,947 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:19:03,059 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:23:26,927 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:23:51,568 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:25:48,596 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:25:51,182 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:30:40,778 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:30:45,156 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:33:00,808 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:33:04,966 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:39:05,143 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:39:09,055 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:47:17,481 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:47:20,816 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 17:48:12,966 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 17:48:15,068 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 18:10:28,181 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 18:10:30,782 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 18:10:52,914 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 18:10:55,034 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-08-26 18:11:04,885 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-08-26 18:11:07,003 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:31:46,924 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:31:54,662 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:35:08,945 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:35:13,619 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:36:31,026 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:36:34,506 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:37:24,091 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:37:52,265 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:46:03,862 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:46:39,583 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:46:57,441 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:47:02,337 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:51:56,807 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:52:00,985 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:52:14,568 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:52:18,792 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:58:38,905 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:58:42,903 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 16:59:01,438 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 16:59:05,195 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 17:03:56,228 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 17:03:56,230 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 17:03:56,233 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 17:04:23,167 -0500 [main] INFO  (TestListeners.java:20) - Starting test loginInvalidUser
+2023-09-07 17:04:23,190 -0500 [main] DEBUG (AbstractTest.java:36) - Getting properties values
+2023-09-07 17:04:36,076 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "Extent.ftl"("en_UY", UTF-8, parsed); will try to load it.
+2023-09-07 17:04:36,077 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en_UY.ftl"): Not found
+2023-09-07 17:04:36,078 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-09-07 17:04:36,078 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-09-07 17:04:36,078 -0500 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "Extent.ftl"("en_UY", UTF-8, parsed) from "jar:file:/Users/edurand/Desktop/maven%20settings/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
